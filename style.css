@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+  
+.container {
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #6c68f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+  
+#pongCanvas {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #68f086;
+}  
+
+/* Estilos para el mensaje de Game Over */
+.game-over-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
